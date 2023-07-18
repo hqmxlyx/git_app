@@ -15,7 +15,6 @@ sap.ui.define([
 			//local update
 			//this.byId("listid").bindItems(oModel);
 			//oModel.setSizeLimit(10);
-			//ctaa
 		}
 	});
 });

@@ -11,6 +11,7 @@ sap.ui.define([
 			});
 			oModel.setUseBatch(false);
 			this.getView().setModel(oModel);
+			//
 			//this.byId("listid").bindItems(oModel);
 			//oModel.setSizeLimit(10);
 		}

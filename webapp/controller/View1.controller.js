@@ -9,11 +9,13 @@ sap.ui.define([
 			var oModel = new sap.ui.model.odata.v2.ODataModel(url, {
 				json: true
 			});
+		//pull process
 			oModel.setUseBatch(false);
 			this.getView().setModel(oModel);
 			//local update
 			//this.byId("listid").bindItems(oModel);
 			//oModel.setSizeLimit(10);
+			//ctaa
 		}
 	});
 });
